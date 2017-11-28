@@ -182,7 +182,7 @@ private extension OperationStack {
         }
     }
     
-    dynamic func workThread() {
+    @objc dynamic func workThread() {
         autoreleasepool {
             var didRun = false
             let thread = Thread.current
